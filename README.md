@@ -1,93 +1,72 @@
-# Competitive Programming – Codeforces 800 Level
+# Codeforces 800 Practice Set
 
-Practice-focused solutions for classic Codeforces 800-rated problems. Each
-exercise comes with a clean C++ implementation plus optional walkthrough notes
-or screenshots of the original statements, making it easy to review concepts or
-share with friends who are getting started.
+A curated mini-collection of Codeforces 800-rated problems implemented in C++.
+Every solution lives in `800/` and aligns with the original statement that you
+can revisit through the included screenshots and the consolidated
+`questionsANDstepBYstepGuides.md` file.
 
-## Highlights
-
-- ✅ Hand-written C++ solutions that compile with any modern C++17+ compiler.
-- 🧠 Companion notes in Markdown and screenshots under `Problem Questions Photos`
-	for quick recall of the full statement.
-- 🗂️ Lightweight structure that mirrors Codeforces problem IDs so you can jump
-	straight to the task you want to revisit.
-
-## Repository layout
+## Repository structure
 
 ```
 competitive_programming-codeforce/
 ├── 800/
-│   ├── 1)_Watermelon.cpp              # C++ solution
-│   ├── 1)_Watermelon.md               # Space for personal notes (currently blank)
+│   ├── 1)_Watermelon.cpp
 │   ├── 2)_Way_Too_Long_Words.cpp
-│   ├── 2)_Way_Too_Long_Words.md
 │   ├── 3)_Team.cpp
-│   ├── 3)_Team.md
 │   ├── 4)_Bitpp.cpp
-│   ├── 4)_BitppRealLife.cpp           # Bonus real-life analogy
+│   ├── 4)_BitppRealLife.cpp            # Analogy describing ++/-- intuitively
 │   ├── 4)_incrementDecrementInDetailes.cpp
 │   ├── 5)_Next_Round.cpp
-│   ├── questionsANDstepBYstepGuides.md
-│   └── Problem Questions Photos/
+│   ├── questionsANDstepBYstepGuides.md # All screenshots + an extended note
+│   └── Problem Questions Photos/       # PNG statements pulled from Codeforces
 └── README.md
 ```
 
-### Key supporting files
+## Problem lineup
 
-- `800/questionsANDstepBYstepGuides.md` – embeds the original statements (PNG)
-	and includes a detailed restatement/example for `Next Round`.
-- `800/Problem Questions Photos/` – screenshots of the Codeforces prompts.
+| #   | Problem            | Core skill                           | Code & references                                                                                                                        |
+| --- | ------------------ | ------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | Watermelon         | Basic parity & constructive proofs   | [`1)_Watermelon.cpp`](800/1%29_Watermelon.cpp) · screenshot inside `Problem Questions Photos/1)_Watermelon.png`                          |
+| 2   | Way Too Long Words | String compression logic             | [`2)_Way_Too_Long_Words.cpp`](800/2%29_Way_Too_Long_Words.cpp)                                                                           |
+| 3   | Team               | Aggregating teammate votes           | [`3)_Team.cpp`](800/3%29_Team.cpp)                                                                                                       |
+| 4   | Bit++              | Pre/post increment reasoning         | [`4)_Bitpp.cpp`](800/4%29_Bitpp.cpp) · extra intuition files (`4)_BitppRealLife.cpp`, `4)_incrementDecrementInDetailes.cpp`)             |
+| 5   | Next Round         | Threshold filtering on sorted scores | [`5)_Next_Round.cpp`](800/5%29_Next_Round.cpp) · walkthrough in [`questionsANDstepBYstepGuides.md`](800/questionsANDstepBYstepGuides.md) |
 
-## Problem catalog
+> Tip: open `questionsANDstepBYstepGuides.md` if you want every screenshot in
+> one place along with a plain-language breakdown of **Next Round**.
 
-| # | Problem | What it practices | Files |
-|---|---------|------------------|-------|
-| 1 | Watermelon | Parity checks & constructive proofs | [`1)_Watermelon.cpp`](800/1%29_Watermelon.cpp) · [`notes`](800/1%29_Watermelon.md) |
-| 2 | Way Too Long Words | String length handling & abbreviation | [`2)_Way_Too_Long_Words.cpp`](800/2%29_Way_Too_Long_Words.cpp) |
-| 3 | Team | Counting positives across teammates | [`3)_Team.cpp`](800/3%29_Team.cpp) |
-| 4 | Bit++ | Prefix/postfix increment reasoning | [`4)_Bitpp.cpp`](800/4%29_Bitpp.cpp) · [`real-life analogy`](800/4%29_BitppRealLife.cpp) |
-| 5 | Next Round | Threshold comparisons with sorted scores | [`5)_Next_Round.cpp`](800/5%29_Next_Round.cpp) |
+## How to run a solution
 
-> Tip: open the matching Markdown or photo entry if you want to see the prompt
-> before diving into the code.
+1. Install any C++17-capable compiler (MinGW-w64 g++, clang, MSVC, etc.).
+2. Compile the file you care about. Example using PowerShell for Bit++:
 
-## Getting started
+   ```powershell
+   cd E:\CP-GitHub_Clone\competitive_programming-codeforce
+   g++ -std=c++17 -O2 .\800\4)_Bitpp.cpp -o bitpp.exe
+   .\bitpp.exe
+   ```
 
-1. Install any C++17-ready toolchain (e.g., `g++` via MinGW-w64 or WSL on
-	 Windows, clang, or MSVC).
-2. Compile a solution; example for `Watermelon`:
+3. Supply input exactly as Codeforces describes (copy/paste sample tests or use
+   redirection: `Get-Content sample.txt | .\bitpp.exe`).
 
-	 ```powershell
-	 g++ -std=c++17 -O2 -pipe -static -s .\800\1)_Watermelon.cpp -o watermelon.exe
-	 .\watermelon.exe
-	 ```
+## Suggested study flow
 
-3. Feed input exactly as Codeforces expects (usually from stdin). You can pipe
-	 in sample tests or create small `.txt` files for quicker iteration.
+- Skim the screenshot in `Problem Questions Photos/` or the guide file, then
+  attempt the implementation yourself before peeking at the provided `.cpp`.
+- Compare your approach with the repository’s version and record any takeaways
+  inside your own notes or by extending `questionsANDstepBYstepGuides.md`.
+- When you’re ready for tougher sets, clone this layout for `900/`, `1000/`,
+  etc., to keep a consistent archive.
 
-## Suggested workflow
+## Contributing & next steps
 
-- Pick a problem, read the screenshot or Markdown recap, then try solving it
-	yourself before looking at the provided `.cpp` file.
-- Use the Markdown files to jot personal tricks, edge cases, or alternative
-	solutions.
-- Duplicate the folder (e.g., `900/`) when you move up in difficulty to keep a
-	consistent layout.
+- Keep filenames in the `<index>)_<ProblemName>.cpp` pattern so the problem order
+  stays consistent.
+- Add new screenshots to `Problem Questions Photos/` and reference them from the
+  guide file to maintain a single source of truth.
+- Future ideas:
+  - [ ] Automate compilation/testing via a small script or task file.
+  - [ ] Add commentary blocks inside each solution explaining key lines.
+  - [ ] Grow the catalog with more 800-level warmups or step up to 900+.
 
-## Contributing
-
-1. Fork the repo and create a feature branch.
-2. Add your solution file(s), screenshots, or explanatory notes following the
-	 existing naming convention (`<index>)_<ProblemName>`).
-3. Run `clang-format` or your preferred formatter if you introduce new code
-	 style elements.
-4. Open a pull request describing the problem you solved and any insights.
-
-## Roadmap
-
-- [ ] Fill in the empty Markdown notebooks with insights per problem.
-- [ ] Add unit-test-like harnesses for quick regression checks.
-- [ ] Expand beyond 800-level once this set feels comfortable.
-
-Happy hacking, and good luck on your Codeforces grind! 🚀
+Happy grinding, and may every submission be _Accepted_! 🚀
