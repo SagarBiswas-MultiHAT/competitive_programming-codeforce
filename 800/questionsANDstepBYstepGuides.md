@@ -30,8 +30,7 @@ You’re given:
 
 - A number 𝑘 , which represents the position in the ranking.
 
-Rule: Any contestant who has a score greater than or equal to the score of the
-𝑘-th contestant will advance to the next round, but only if their score is positive.
+Rule: Any contestant who has a score greater than or equal to the score of the 𝑘-th contestant will advance to the next round, but only if their score is positive.
 
 Your task: Count how many contestants advance.
 
@@ -55,9 +54,29 @@ Your task: Count how many contestants advance.
 
     6
 
-📊 Example 2
+### 📊 Example 2
 
-Input:
+#### Input:
+
+    8 6
+
+    0 4 6 6 7 8 9 10
+
+- 𝑛 = 8, 𝑘 = 6.
+
+- The 5th contestant’s score = 8.
+
+- Anyone with score ≥ 8 and > 0 advances.
+
+- Scores meeting this: 8 9 10 → 3 contestants.
+
+#### Output:
+
+    3
+
+### 📊 Example 3
+
+#### Input:
 
     4 2
     0 0 0 0
