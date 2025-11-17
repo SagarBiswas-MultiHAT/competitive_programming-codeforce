@@ -191,5 +191,6 @@ we divide by 2 **because each domino covers exactly 2 squares.**
 
 ## Formula: 
 
-So the maximum dominoes = **floor((M × N) / 2)**
+So the maximum dominoes = **((M × N) / 2)**
+
 
