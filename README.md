@@ -10,16 +10,19 @@ can revisit through the included screenshots and the consolidated
 ```
 competitive_programming-codeforce/
 ├── 800/
-│   ├── 1)_Watermelon.cpp
-│   ├── 2)_Way_Too_Long_Words.cpp
-│   ├── 3)_Team.cpp
-│   ├── 4)_Bitpp.cpp
-│   ├── 4)_BitppRealLife.cpp            # Analogy describing ++/-- intuitively
-│   ├── 4)_incrementDecrementInDetailes.cpp
-│   ├── 5)_Next_Round.cpp
+│   ├── 1_Watermelon.cpp
+│   ├── 2_Way_Too_Long_Words.cpp
+│   ├── 3_Team.cpp
+│   ├── 4_Bitpp.cpp
+│   ├── 4_BitppRealLife.cpp            # Analogy describing ++/-- intuitively
+│   ├── 4_incrementDecrementInDetailes.cpp
+│   ├── 5_Next_Round.cpp
 │   ├── questionsANDstepBYstepGuides.md # All screenshots + an extended note
 │   └── Problem Questions Photos/       # PNG statements pulled from Codeforces
 └── README.md
+
+CHECK THE 800 FOLDER FOR MORE!
+
 ```
 
 ## Problem lineup
