@@ -2,23 +2,33 @@
 
 ## 1)\_Watermelon
 
-![](Problem%20Questions%20Photos/1%29_Watermelon.png)
+<p align="center">
+    <img src="Problem%20Questions%20Photos/1%29_Watermelon.png" alt="Watermelon problem statement">
+</p>
 
 ## 2)\_Way_Too_Long_Words
 
-![](Problem%20Questions%20Photos/2%29_Way_Too_Long_Words.png)
+<p align="center">
+    <img src="Problem%20Questions%20Photos/2%29_Way_Too_Long_Words.png" alt="Way Too Long Words problem statement">
+</p>
 
 ## 3)\_Team
 
-![](Problem%20Questions%20Photos/3%29_Team.png)
+<p align="center">
+    <img src="Problem%20Questions%20Photos/3%29_Team.png" alt="Team problem statement">
+</p>
 
 ## 4)\_Bitpp
 
-![](Problem%20Questions%20Photos/4%29_Bitpp.png)
+<p align="center">
+    <img src="Problem%20Questions%20Photos/4%29_Bitpp.png" alt="Bit++ problem statement">
+</p>
 
 ## 5)\_Next_Round
 
-![Problem statement screenshot](Problem%20Questions%20Photos/5%29_Next_Round.png)
+<p align="center">
+    <img src="Problem%20Questions%20Photos/5%29_Next_Round.png" alt="Next Round problem statement screenshot">
+</p>
 
 ## 📝 Problem Restated in Simple Words
 
@@ -99,7 +109,9 @@ Your task: Count how many contestants advance.
 
 ## 6)_Domino piling
 
-![Problem statement screenshot](Problem%20Questions%20Photos/6%29_Domino_piling.png)
+<p align="center">
+    <img src="Problem%20Questions%20Photos/6%29_Domino_piling.png" alt="Domino piling problem statement screenshot">
+</p>
 
 ## What is a Domino Piece?
 
