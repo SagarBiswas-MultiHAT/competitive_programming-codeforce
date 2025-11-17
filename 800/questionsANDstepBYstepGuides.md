@@ -96,3 +96,88 @@ Your task: Count how many contestants advance.
 1. Find the score of the 𝑘-th contestant.
 2. Count how many scores are ≥ that score.
 3. Exclude anyone with score = 0.
+
+## 6)_Domino piling
+
+![Problem statement screenshot](Problem%20Questions%20Photos/6%29_Domino_piling.png)
+
+## What is a Domino Piece?
+
+A domino is just a small rectangular block made of two squares stuck together.
+
+M = number of rows, N = number of columns; They are the height and width of the grid.
+
+### Example:
+
+If the input is:
+
+    3 4
+
+Then the board is:
+
+    Row 1: [ ][ ][ ][ ]
+    Row 2: [ ][ ][ ][ ]
+    Row 3: [ ][ ][ ][ ]
+
+Total 12 squares in this example.
+
+## Why do we divide by 2?
+
+Because of Rule 1 from the problem: **Each domino completely covers two squares.**
+
+So:
+
+    1 domino = 2 squares
+
+    2 dominoes = 4 squares
+
+    3 dominoes = 6 squares
+
+    …
+
+    X dominoes = 2 × X squares
+
+To find the maximum number of dominoes, we simply count how many pairs of squares fit on the board.
+
+### Example
+
+- Board = 3 × 4 → 12 squares.
+
+- Each domino uses 2 squares.
+
+- So maximum dominoes = **12 squares ÷ 2 squares per domino = 6 dominoes**
+
+This is why we do: **12 / 2 = 6**
+
+### Visual Example
+
+Board (3×4):
+
+    [1][1][2][2]
+    [3][3][4][4]
+    [5][5][6][6]
+
+Here we can place 6 dominoes:
+
+- Domino 1 covers 2 squares
+
+- Domino 2 covers 2 squares
+
+- Domino 3 covers 2 squares
+
+- Domino 4 covers 2 squares
+
+- Domino 5 covers 2 squares
+
+- Domino 6 covers 2 squares
+
+Total covered = 6 × 2 = 12 squares
+
+## Final Explanation
+
+we divide by 2 **because each domino covers exactly 2 squares.**
+
+## Formula: 
+
+So the maximum dominoes = **floor((M × N) / 2)**
+

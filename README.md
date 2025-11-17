@@ -26,11 +26,11 @@ competitive_programming-codeforce/
 
 | #   | Problem            | Core skill                           | Code & references                                                                                                                        |
 | --- | ------------------ | ------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------- |
-| 1   | Watermelon         | Basic parity & constructive proofs   | [`1)_Watermelon.cpp`](800/1%29_Watermelon.cpp) · screenshot inside `Problem Questions Photos/1)_Watermelon.png`                          |
-| 2   | Way Too Long Words | String compression logic             | [`2)_Way_Too_Long_Words.cpp`](800/2%29_Way_Too_Long_Words.cpp)                                                                           |
-| 3   | Team               | Aggregating teammate votes           | [`3)_Team.cpp`](800/3%29_Team.cpp)                                                                                                       |
-| 4   | Bit++              | Pre/post increment reasoning         | [`4)_Bitpp.cpp`](800/4%29_Bitpp.cpp) · extra intuition files (`4)_BitppRealLife.cpp`, `4)_incrementDecrementInDetailes.cpp`)             |
-| 5   | Next Round         | Threshold filtering on sorted scores | [`5)_Next_Round.cpp`](800/5%29_Next_Round.cpp) · walkthrough in [`questionsANDstepBYstepGuides.md`](800/questionsANDstepBYstepGuides.md) |
+| 1   | Watermelon         | Basic parity & constructive proofs   | [`1_Watermelon.cpp`](800/1_Watermelon.cpp) · screenshot inside `Problem Questions Photos/1)_Watermelon.png`                          |
+| 2   | Way Too Long Words | String compression logic             | [`2_Way_Too_Long_Words.cpp`](800/2_Way_Too_Long_Words.cpp)                                                                           |
+| 3   | Team               | Aggregating teammate votes           | [`3_Team.cpp`](800/3_Team.cpp)                                                                                                       |
+| 4   | Bit++              | Pre/post increment reasoning         | [`4_Bitpp.cpp`](800/4_Bitpp.cpp) · extra intuition files (`4)_BitppRealLife.cpp`, `4)_incrementDecrementInDetailes.cpp`)             |
+| 5   | Next Round         | Threshold filtering on sorted scores | [`5_Next_Round.cpp`](800/5_Next_Round.cpp) · walkthrough in [`questionsANDstepBYstepGuides.md`](800/questionsANDstepBYstepGuides.md) |
 
 > Tip: open `questionsANDstepBYstepGuides.md` if you want every screenshot in
 > one place along with a plain-language breakdown of **Next Round**.
@@ -42,7 +42,7 @@ competitive_programming-codeforce/
 
    ```powershell
    cd E:\CP-GitHub_Clone\competitive_programming-codeforce
-   g++ -std=c++17 -O2 .\800\4)_Bitpp.cpp -o bitpp.exe
+   g++ -std=c++17 -O2 .\800\4_Bitpp.cpp -o bitpp.exe
    .\bitpp.exe
    ```
 
